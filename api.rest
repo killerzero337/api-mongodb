@@ -48,3 +48,23 @@ content-type: application/json
 
 DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/users/6542da20c20d9ad95c739701 HTTP/1.1
 content-type: application/json
+
+###
+
+POST https://api-mongodb-dev-reda.2.us-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Ada wong", 
+    "edad": 20 
+}
+
+###
+
+POST https://api-mongodb-dev-reda.2.us-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Zinogre", 
+    "edad": 500
+}
