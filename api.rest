@@ -65,8 +65,9 @@ POST https://api-mongodb-dev-reda.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "nuevo usuario", 
-    "edad": 34
+    "nombre": "nuevo Producto", 
+    "descripcion": "prducto aun por clasificar", 
+    "precio": 14.52
 }
 
 ### Visualizar todo
